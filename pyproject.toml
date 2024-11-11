@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling!=1.26.1"]
 build-backend = "hatchling.build"
 
 [project]
@@ -7,7 +7,7 @@ name = "graphene-file-upload"
 version = "1.3.0"
 description = "Lib for adding file upload functionality to GraphQL mutations in Graphene Django and Flask-Graphql"
 readme = "README.md"
-license = ""
+license = { file = "LICENSE.txt" }
 authors = [
     { name = "Lucas McGartland", email = "lucasmcgartland@gmail.com" },
 ]
